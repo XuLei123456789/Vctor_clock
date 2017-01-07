@@ -73,6 +73,8 @@ A，B，C三个节点的初始时间向量都是`(0,0,0)`，该向量的一，�
 区别：
 
 狭义相对论可以用洛伦兹变换将不同的参考系中的时间进行变换（利用到不同参考系之间的相对速度V），但是向量时钟算法不可以（其实逻辑上也可以，但是实现后没有现实意义），所以只能用多维的时间来表征不同节点中的时间却没法相互转化。
+
 ## 查考文献
 -  Colin J. Fidge (February 1988). ["Timestamps in Message-Passing Systems That Preserve the Partial Ordering"](http://zoo.cs.yale.edu/classes/cs426/2012/lab/bib/fidge88timestamps.pdf). In K. Raymond (Ed.). Proc. of the 11th Australian Computer Science Conference (ACSC'88). pp. 56–66. Retrieved 2009-02-13.
 - Almeida, Paulo; Baquero, Carlos; Fonte, Victor (2008), ["Interval Tree Clocks: A Logical Clock for Dynamic Systems", in Baker, Theodore P.; Bui, Alain; Tixeuil, Sébastien, Principles of Distributed Systems](http://gsd.di.uminho.pt/members/cbm/ps/itc2008.pdf), Lecture Notes in Computer Science, 5401, Springer-Verlag, Lecture Notes in Computer Science, pp. 259–274, doi:10.1007/978-3-540-92221-6, ISBN 978-3-540-92220-9
+- [时钟向量算法和狭义相对论时空观的比较](https://www.zhihu.com/question/30084741/answer/71115362)
