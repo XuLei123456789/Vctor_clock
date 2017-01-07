@@ -3,7 +3,7 @@
 ## 算法的目的
 
 在使用分布式数据库的时候，不同节点中数据的一致性一向是一个经典且难以解决的问题，而这个问题的根源是在难以实现一个全局统一的时钟。下面就描述了这种问题的一种情况：
-
+![picture1](https://github.com/XuLei123456789/Vctor_clock/blob/master/picture1.png)
 
 如上图所示：A，B，C表示分布式系统中的三个数据库，纵轴表示时间。在T<sub>A1</sub>时刻A做出了更改`Key=Value1`，这次更改在T<sub>C2</sub>时刻传输到了C；在T<sub>B1</sub>时刻B做出了更改`Key=Value2`，这次更改在T<sub>C1</sub>时刻传输到了C。那么问题来了：C数据库中的`Key`应该等于`Value1`还是`Value2`呢？
 
