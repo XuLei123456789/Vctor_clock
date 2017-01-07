@@ -64,14 +64,15 @@ A，B，C三个节点的初始时间向量都是`(0,0,0)`，该向量的一，�
 
 在狭义相对论中，同一事件从不同的参考系中观察是不一样的，而两次事件可以建立因果关系的前提是：两个事件之间可以用等于或小于光速的速度传递信息（或者说一事件位于另一事件的光锥内部）。
 
-具体内容可以参考。。。
-
-
 | 在狭义相对论中的描述 | 在向量时钟算法中的描述 |
 | ------------- |:-------------:|
 | 不同的惯性参考系有不同的时间 | 不同的节点有不同的时钟向量维度 |
 | 两件事件具有因果关系（事件2位于事件1的光锥内部）| 两次更改可确定先后顺序（两个向量具有偏序，类似光锥内部） |
 |两件事件不具有因果关系（事件2位于事件1的光锥外部） | 两件事件不具有因果关系（事件2位于事件1的光锥外部）|
-
+更详细的关于时钟向量算法和狭义相对论时空观的比较可以阅读参考文献3
 区别：
+
 狭义相对论可以用洛伦兹变换将不同的参考系中的时间进行变换（利用到不同参考系之间的相对速度V），但是向量时钟算法不可以（其实逻辑上也可以，但是实现后没有现实意义），所以只能用多维的时间来表征不同节点中的时间却没法相互转化。
+## 查考文献
+-  Colin J. Fidge (February 1988). ["Timestamps in Message-Passing Systems That Preserve the Partial Ordering"](http://zoo.cs.yale.edu/classes/cs426/2012/lab/bib/fidge88timestamps.pdf). In K. Raymond (Ed.). Proc. of the 11th Australian Computer Science Conference (ACSC'88). pp. 56–66. Retrieved 2009-02-13.
+- Almeida, Paulo; Baquero, Carlos; Fonte, Victor (2008), ["Interval Tree Clocks: A Logical Clock for Dynamic Systems"](http://gsd.di.uminho.pt/members/cbm/ps/itc2008.pdf), in Baker, Theodore P.; Bui, Alain; Tixeuil, Sébastien, Principles of Distributed Systems (PDF), Lecture Notes in Computer Science, 5401, Springer-Verlag, Lecture Notes in Computer Science, pp. 259–274, doi:10.1007/978-3-540-92221-6, ISBN 978-3-540-92220-9
